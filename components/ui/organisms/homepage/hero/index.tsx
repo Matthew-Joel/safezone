@@ -14,7 +14,7 @@ const HompageHero = ({ isHeight }: { isHeight: boolean }) => {
 					<div className="text-center">
 						<p className="lg:text-3xl text-2xl text-white font-medium">
 							Safest Mode
-							<span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-[#00CCFF] to-[#80FF00]">
+							<span className="ml-3 text-transparent bg-clip-text bg-gradient-to-r from-[#00CCFF] to-[#80FF00]">
 								<Typewriter
 									texts={["of Payment", "of Transactions", "of Buying", "of Selling"]}
 								/>

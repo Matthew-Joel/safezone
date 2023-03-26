@@ -4,7 +4,7 @@ import React from "react";
 const StaySafe = () => {
 	return (
 		<div className="bg-white w-full">
-			<div className="lg:mx-24 md:mx-32 lg:mt-36 mt-12">
+			<div className="lg:mx-24 md:mx-32 lg:mt-36 mt-10">
 				<div className="md:flex grid justify-center">
 					<div className="md:flex grid gap-[5em]">
 						<div className="grid md:gap-3 gap-4 lg:w-3/5">

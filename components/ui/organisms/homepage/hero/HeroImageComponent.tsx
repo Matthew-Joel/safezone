@@ -16,7 +16,7 @@ const HeroImageComponent = ({ isHeight }: { isHeight: boolean }) => {
 					<div className="absolute top-5 left-[36%] md:top-14 animate__animated animate__tada animate__infinite animate__slow">
 						<LockIcon />
 					</div>
-					<div className="absolute top-4 md:right-[33%] right-[25%] md:top-9">
+					<div className="absolute top-4 md:right-[32%] right-[25%] md:top-9">
 						<HourGlassIcon />
 					</div>
 					<div className="absolute top-28 md:-left-[-30%] -left-[-20%] md:top-[60%]">

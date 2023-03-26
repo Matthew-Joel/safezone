@@ -19,7 +19,7 @@ const ButWhy = () => {
 				</p>
 			</div>
 			<div>
-				<div className="flex justify-center my-14">
+				<div className="flex justify-center my-16">
 					<img src="../svg/group7.svg" alt="trans" className="w-100 h-100"></img>
 				</div>
 			</div>

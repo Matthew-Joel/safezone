@@ -30,7 +30,7 @@ const Hero = () => {
 			<div className="flex justify-center items-center xl:mx-[350px] md:mx-12 mt-5 ">
 				<p className="text-justify md:text-center mx-16 md:mx-[300px] text-sm">
 					Our team is in the process of developing a secure payment platform aimed at
-					safeguarding your hard-earned money or goods from fraudulent individuals
+					safeguarding your hard-earnned money or goods from fraudulent individuals
 					who present themselves as genuine sellers or buyers. By creating a secure
 					e-commerce ecosystem, our platform will provide a safe and trustworthy
 					environment for all users.

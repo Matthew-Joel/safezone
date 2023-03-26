@@ -3,7 +3,7 @@ import { LatestBlogPostCard } from "../../../common/cards";
 
 const Latest = () => {
 	return (
-		<div className="bg-white relative lg:mx-20 mx-8 my-20 lg:mx-14">
+		<div className="bg-white relative lg:mx-20 mx-8 my-20 ">
 			<h1 className="text-xl font-semibold">Latest</h1>
 			<div className="grid mt-10 gap-10 w-full items-center">
 				<LatestBlogPostCard

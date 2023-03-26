@@ -40,7 +40,7 @@ const Navbar = () => {
 					mobileNavOpen ? "translate-x-0" : "translate-x-[-200%]"
 				}`}
 			>
-				<div className="absolute top-[8.8em] left-6 flex gap-5">
+				<div className="fixed top-[0] left-6 flex gap-5">
 					<Link href="/" className="w-32 z-50 lg:w-36 flex items-center">
 						<img
 							src="/images/logos/safezone-logo2.png"
