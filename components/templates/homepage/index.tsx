@@ -6,7 +6,7 @@ const HomepageTemplate = () => {
 	return (
 		<>
 			<HomepageHero />
-			<div className="fixed md:top-[100vh] md:bottom-auto bottom-2 z-10 -mt-20 w-full">
+			<div className="sticky h-auto top-1 xl:-mt-36 lg:-mt-20 -mt-32 z-10 w-full">
 				<div className="flex justify-center">
 					<NavLinks />
 				</div>

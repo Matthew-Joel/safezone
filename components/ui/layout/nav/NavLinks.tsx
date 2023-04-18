@@ -5,7 +5,7 @@ import { navlinksChildren } from "./links";
 const NavLinks = () => {
 	const [activeLink, setActiveLink] = useState<string>("");
 	return (
-		<div className="flex items-center justify-center bg-white">
+		<div className="flex items-center justify-center bg-white shadow-lg">
 			<ul className="text-black gradient-border text-sm flex items-center font-medium p-1 rounded-lg md:flex-row md:space-x-8">
 				{navlinksChildren.map((navlink: any, i: any) => (
 					<li key={i}>
