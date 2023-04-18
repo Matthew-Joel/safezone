@@ -1,10 +1,15 @@
 import React from "react";
+import HeroImageComponent from "./HeroImageComponent";
 
 const HompageHero = () => {
 	return (
 		<div className="relative">
-			<div className="bg-safezone_homepage_hero h-[120vh] w-screen -mt-40 pt-72">
-				<div className="mx-10 text-white">sdfnbn.sfc d jsf is ij </div>
+			<div className="bg- h-[120vh] w-screen -mt-40 md:pt-36 pt-44">
+				<div className="lg:mx-24">
+					<div className="container p-5">
+						<HeroImageComponent />
+					</div>
+				</div>
 			</div>
 		</div>
 	);
