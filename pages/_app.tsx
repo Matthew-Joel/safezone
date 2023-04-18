@@ -1,11 +1,12 @@
 import { AppProps } from "next/app";
 import "../public/styles/globals.css";
+import "../public/styles/gradient.scss";
 import Layout from "../components/ui/layout";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
 	return (
 		<Layout>
-			<Component {...pageProps} />;
+			<Component {...pageProps} />
 		</Layout>
 	);
 };

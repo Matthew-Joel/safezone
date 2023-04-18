@@ -23,13 +23,18 @@ module.exports = {
         "7xl": "5rem",
         16: "16px",
       },
-      colors: {},
+      colors: {
+        safezoneGradientLeft: ""
+      },
       fontFamily: {
         Inter: [["Inter"]],
       },
-      backgroundImage: {
+      backgroundImage: ({
+        theme
+      }) => ({
+        gradientDeg: 'linear-gradient(221.99deg, var(--tw-gradient-stops))',
         safezone_homepage_hero: "url('../images/homepage_hero.png')"
-      },
+      })
     },
   },
 };
