@@ -14,7 +14,7 @@ const NavLinks = () => {
 							onClick={() => setActiveLink(navlink.title)}
 							className={`${
 								activeLink === navlink.title && "underline text-[#00B2FF]"
-							} block py-2 px-4 rounded hover:text-[#00B2FF] duration-300 decoration-2 underline-offset-2 hover:underline`}
+							} block py-2 md:px-4 px-2 rounded hover:text-[#00B2FF] duration-300 decoration-2 underline-offset-2 hover:underline`}
 							style={{ whiteSpace: "nowrap" }}
 						>
 							{navlink.title}
