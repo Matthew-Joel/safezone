@@ -25,9 +25,9 @@ const StaySafe = () => {
 						</div>
 						<div className="h-full w-[30vw] hidden lg:flex">
 							<Image
-								src="/images/scammer_illustration.png"
+								src="/svg/scammer.svg"
 								alt="scammer illustration"
-								className="object-contain w-full"
+								className="object-contain w-80"
 								height={100}
 								width={100}
 							/>
