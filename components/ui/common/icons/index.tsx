@@ -16,13 +16,11 @@ export const WebSecurityIcon1 = () => {
 
 export const HomeHeroMobileIcon = () => {
 	return (
-		<div className="lg:w-72 w-48">
-			<Image
-				height={100}
-				width={100}
+		<div className="w-100 flex justify-center items-center mr-20 md:mr-36">
+			<img
 				alt="mobile phone"
-				className="object-contain w-full"
-				src="/images/mobile_phone.png"
+				className="w-100 h-auto lg:h-80"
+				src="/logos/mobile.png"
 			/>
 		</div>
 	);
