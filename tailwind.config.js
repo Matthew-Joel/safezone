@@ -33,8 +33,8 @@ module.exports = {
         theme
       }) => ({
         gradientDeg: 'linear-gradient(221.99deg, var(--tw-gradient-stops))',
-        safezone_homepage_hero: "url('../logos/homepage-hero.jpg')",
-        safezone_pattern_light: "url('../logos/safezone-pattern.jpg')"
+        safezone_homepage_hero: "url('../images/logos/homepage-hero.jpg')",
+        safezone_pattern_light: "url('../images/pattern/safezone-pattern.jpg')"
       }),
     },
   },

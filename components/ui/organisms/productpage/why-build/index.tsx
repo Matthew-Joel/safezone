@@ -8,7 +8,7 @@ const WhyBuild = () => {
                     <h2 className="text-3xl font-medium text-black">Why are we Building</h2>
                 </div>
                 <div className="mt-4 flex justify-center items-center">
-                    <img src="../3D/3D00659.png" alt="image" className="w-auto h-[300px]" />
+                    <img src="../images/3D/3D00659.png" alt="image" className="w-auto h-[300px]" />
                 </div>
                 <div className="grid md:grid-cols-3 gap-6 mt-6">
                     <div className="px-4 lg:px-12 flex flex-col gap-4 justify-center items-center">

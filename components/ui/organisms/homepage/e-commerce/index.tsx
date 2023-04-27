@@ -3,7 +3,7 @@ import React from "react";
 const ECommerce = () => {
     return (
         <div>
-            <div className="bg-[#030F35] relative mt-5">
+            <div className="bg-[#030F35] relative pt-5">
                 <div className="md:mx-14 mx-8 grid md:flex md:flex-col-2 justify-center items-center">
                     <div className="lg:w-1/2 my-12 md:pl-8">
                         <p className="text-white md:w-3/4 font-medium text-3xl md:text-5xl">
@@ -41,10 +41,10 @@ const ECommerce = () => {
                     </div>
                     <div className="md:w-1/2 relative hidden md:hidden lg:flex justify-center md:my-12">
                         <div>
-                            <img src="../logos/name 2.png" className="w-[30vw]"></img>
+                            <img src="../images/logos/name 2.png" className="w-[30vw]"></img>
                         </div>
                         <div className="absolute">
-                            <img src="../logos/laptop-alone.png"></img>
+                            <img src="../images/logos/laptop-alone.png"></img>
                         </div>
                     </div>
                 </div>

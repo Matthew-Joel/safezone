@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const WebSecurityIcon1 = () => {
 	return (
-		<div className="lg:w-40 w-36">
+		<div className="lg:w-48 w-40">
 			<Image
 				height={100}
 				width={100}
@@ -20,7 +20,7 @@ export const HomeHeroMobileIcon = () => {
 			<img
 				alt="mobile phone"
 				className="w-100 h-auto lg:h-80"
-				src="/logos/mobile.png"
+				src="/images/logos/mobile.png"
 			/>
 		</div>
 	);

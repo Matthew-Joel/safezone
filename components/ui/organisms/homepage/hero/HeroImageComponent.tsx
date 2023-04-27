@@ -34,7 +34,7 @@ const HeroImageComponent = () => {
 					<div className="absolute top-28 md:-left-[-25%] -left-[-20%] md:top-[60%]">
 						<PendingIcon />
 					</div>
-					<div className="animate__animated animate__rubberBand animate__infinite animate__slow absolute bottom-8 right-0 -right-[-35%] md:bottom-18">
+					<div className="animate__animated animate__rubberBand animate__infinite animate__slow absolute bottom-8 right-0 md:bottom-18">
 						<GuardIcon />
 					</div>
 					<HomeHeroMobileIcon />
