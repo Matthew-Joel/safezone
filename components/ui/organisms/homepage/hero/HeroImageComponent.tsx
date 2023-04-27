@@ -24,7 +24,7 @@ const HeroImageComponent = () => {
 						Its better to be safe than sorry... always request to pay with safezone
 					</p>
 				</div>
-				<div className="md:mt-6 mt-10 relative">
+				<div className="mt-20 relative">
 					<div className="absolute top-5 -left-[-35%] md:top-14 animate__animated animate__tada animate__infinite animate__slow">
 						<LockIcon />
 					</div>

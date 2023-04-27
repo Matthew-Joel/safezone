@@ -6,7 +6,7 @@ const ButWhy = () => {
 			className="bg-white relative py-28 px-12 mt-20"
 			style={{
 				background:
-					'linear-gradient(222.99deg, rgba(217, 240, 255, 0.6), rgba(217, 236, 255, 0.6) 50%), url("../images/patterns/safezone-pattern.jpg")',
+					'linear-gradient(222.99deg, rgba(250, 255, 255, 0.6), rgba(250, 255, 255, 0.6) 50%), url("../images/patterns/safezone-pattern.jpg")',
 				backgroundSize: "cover",
 			}}
 		>
