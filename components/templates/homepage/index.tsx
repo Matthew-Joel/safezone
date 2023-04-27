@@ -12,7 +12,7 @@ const HomepageTemplate = () => {
 	return (
 		<div className="w-[100vw] relative">
 			<HomepageHero />
-			<div className="sticky h-auto top-1 xl:-mt-36 lg:-mt-20 -mt-32 z-10 w-full">
+			<div className="sticky h-auto top-1 xl:-mt-[2%] lg:-mt-[3%] md:-mt-[2%] -mt-[5%] z-10 w-full">
 				<div className="flex justify-center">
 					<NavLinks />
 				</div>
