@@ -40,7 +40,7 @@ export const LockIcon = () => {
 	);
 };
 
-export const TimeSandIcon = () => {
+export const HourGlassIcon = () => {
 	return (
 		<div className="w-8">
 			<Image
