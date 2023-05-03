@@ -4,7 +4,7 @@ import {
 	HomeHeroMobileIcon,
 	LockIcon,
 	PendingIcon,
-	TimeSandIcon,
+	HourGlassIcon,
 	WebSecurityIcon1,
 } from "../../../common/icons";
 
@@ -24,17 +24,17 @@ const HeroImageComponent = () => {
 						Its better to be safe than sorry... always request to pay with safezone
 					</p>
 				</div>
-				<div className="md:mt-6 mt-10 relative">
-					<div className="absolute top-5 -left-[-35%] md:top-14 animate__animated animate__tada animate__infinite animate__slow">
+				<div className="mt-20 relative">
+					<div className="absolute top-5 left-[30%] md:top-14 animate__animated animate__tada animate__infinite animate__slow">
 						<LockIcon />
 					</div>
-					<div className="absolute top-4 md:-right-[-25%] -right-[-20%] md:top-9">
-						<TimeSandIcon />
+					<div className="absolute top-4 md:right-[23%] right-[20%] md:top-9">
+						<HourGlassIcon />
 					</div>
 					<div className="absolute top-28 md:-left-[-25%] -left-[-20%] md:top-[60%]">
 						<PendingIcon />
 					</div>
-					<div className="animate__animated animate__rubberBand animate__infinite animate__slow absolute bottom-8 right-0 -right-[-35%] md:bottom-18">
+					<div className="animate__animated animate__rubberBand animate__infinite animate__slow absolute bottom-8 lg:right-24 right-10 md:bottom-18">
 						<GuardIcon />
 					</div>
 					<HomeHeroMobileIcon />

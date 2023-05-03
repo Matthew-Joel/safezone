@@ -17,8 +17,7 @@ const Footer = () => {
 					</div>
 					<div className="mt-2">
 						<p className="text-sm md:w-3/4">
-							It's better to be safe than sorry...
-							always request to pay with safezone.
+							It's better to be safe than sorry... always request to pay with safezone.
 						</p>
 					</div>
 				</div>
@@ -30,7 +29,9 @@ const Footer = () => {
 						<p className="text-sm md:w-3/4">
 							No 29, Adeoluwa Street Oguloloa Junction Ilorin, Kwara State.
 						</p>
-						<p className="text-sm">About Us</p>
+						<Link href="#">
+							<p className="text-sm">About Us</p>
+						</Link>
 					</div>
 				</div>
 				<div className="w-full flex flex-col gap-y-3 mt-5">
@@ -38,8 +39,12 @@ const Footer = () => {
 						<h2 className="font-bold">Resources</h2>
 					</div>
 					<div className="md:space-y-2">
-						<p className="text-sm">Blog</p>
-						<p className="text-sm">Term and Privacy</p>
+						<Link href="#">
+							<p className="text-sm">Blog</p>
+						</Link>
+						<Link href="#">
+							<p className="text-sm">Term and Privacy</p>
+						</Link>
 					</div>
 				</div>
 				<div className="w-full flex flex-col gap-y-3 mt-5">
@@ -47,9 +52,15 @@ const Footer = () => {
 						<h2 className="font-bold">Let's Connect</h2>
 					</div>
 					<div className="md:space-y-2">
-						<p className="text-sm">Facebook</p>
-						<p className="text-sm">LinkedIn</p>
-						<p className="text-sm">Twitter</p>
+						<Link href="#">
+							<p className="text-sm">Facebook</p>
+						</Link>
+						<Link href="#">
+							<p className="text-sm">LinkedIn</p>
+						</Link>
+						<Link href="#">
+							<p className="text-sm">Twitter</p>
+						</Link>
 					</div>
 				</div>
 			</div>

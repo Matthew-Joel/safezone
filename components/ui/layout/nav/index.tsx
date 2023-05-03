@@ -12,7 +12,11 @@ const Navbar = () => {
 			<div className="z-50 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				<Link href="/" className="w-32 z-50 lg:w-36 flex items-center">
 					<img
-						src={`${asPath === "/" ? "../logos/safezone-logo2.png" : "../logos/safezone-logo.png"}`}
+						src={`${
+							asPath === "/"
+								? "../images/logos/safezone-logo2.png"
+								: "../images/logos/safezone-logo.png"
+						}`}
 						className="h-auto w-auto lg:mr-10 object-contain"
 						alt="SafeZone Logo"
 					/>
