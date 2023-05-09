@@ -2,7 +2,7 @@ import React from "react";
 
 const How = () => {
     return (
-        <div className="bg-white relative mt-28">
+        <div className="bg-white relative mt-28 pt-10" id="what_is_safezone">
             <div className="text-center">
                 <p className="text-4xl text-medium">How does safezone works?</p> 
                 <p className="text-sm">safezone is simple and easy to use</p>
@@ -10,7 +10,7 @@ const How = () => {
             <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-14 mt-12">
                 <div className="md:px-10 px-3 mt-5 flex flex-col gap-3">
                     <div className="flex justify-center">
-                        <img src="../how/trust.png" alt="trans" className="w-[60px] h-[60px]"></img>
+                        <img src="../images/how/trust.png" alt="trans" className="w-[60px] h-[60px]"></img>
                     </div>
                     <div className="text-center">
                         <p className="text-sm">
@@ -21,7 +21,7 @@ const How = () => {
                 </div>
                 <div className="md:px-10 px-3 mt-5 flex flex-col gap-3">
                     <div className="flex justify-center">
-                        <img src="../how/smartphone.png" alt="trans" className="w-[60px] h-[60px]"></img>
+                        <img src="../images/how/smartphone.png" alt="trans" className="w-[60px] h-[60px]"></img>
                     </div>
                     <div className="text-center">
                         <p className="text-sm">
@@ -34,7 +34,7 @@ const How = () => {
                 </div>
                 <div className="md:px-10 px-3 mt-5 flex flex-col gap-3">
                     <div className="flex justify-center">
-                        <img src="../how/time-is-money.png" alt="trans" className="w-[60px] h-[60px]"></img>
+                        <img src="../images/how/time-is-money.png" alt="trans" className="w-[60px] h-[60px]"></img>
                     </div>
                     <div className="text-center">
                         <p className="text-sm">
@@ -48,7 +48,7 @@ const How = () => {
                 </div>
                 <div className="md:px-10 px-3 mt-5 flex flex-col gap-3">
                     <div className="flex justify-center">
-                        <img src="../how/send.png" alt="trans" className="w-[60px] h-[60px]"></img>
+                        <img src="../images/how/send.png" alt="trans" className="w-[60px] h-[60px]"></img>
                     </div>
                     <div className="text-center">
                         <p className="text-sm">
