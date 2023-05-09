@@ -10,7 +10,7 @@ const ButWhy = () => {
 				backgroundSize: "cover",
 			}}
 		>
-			<div className="flex flex-col items-center justify-center">
+			<div className="flex flex-col gap-4 items-center justify-center">
 				<p className="text-4xl font-medium text-center">But why safezone?</p>
 				<p className="text-sm md:w-[42%] text-center">
 					Buying and selling online can be risky, but with SafeZone, you can be
@@ -24,7 +24,7 @@ const ButWhy = () => {
 				</div>
 			</div>
 			<div className="flex justify-center items-center w-full">
-				<div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mt-4 w-full">
+				<div className="grid xl:grid-cols-3 md:grid-cols-2 gap-10 mt-4 w-full">
 					<div className="px-14 flex flex-col gap-3">
 						<div className="flex justify-center">
 							<img src="../why/opacity.png" alt="trans" className="w-20 h-20"></img>

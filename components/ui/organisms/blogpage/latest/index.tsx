@@ -8,7 +8,17 @@ const Latest = () => {
 			<h1 className="text-xl font-semibold">Latest</h1>
 			<div className="flex justify-center">
 				<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce>
-					<div className="grid md:grid-cols-2 xl:grid-cols-3 mt-10 gap-6">
+					<div className="grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-6">
+						<LatestBlogPostCard
+							title="5 Tips for Avoiding E-Commerce Scammers"
+							description={`Online shopping has become increasingly popular over the years, but
+					unfortunately, so have e-commerce scammers. These scammers use various
+					tactics to trick shoppers into giving away their personal information or
+					money...`}
+							createdBy={"Darey Oloye"}
+							createdAt={"12/01/2023"}
+							link={`/blog/${"#id"}`}
+						/>
 						<LatestBlogPostCard
 							title="5 Tips for Avoiding E-Commerce Scammers"
 							description={`Online shopping has become increasingly popular over the years, but

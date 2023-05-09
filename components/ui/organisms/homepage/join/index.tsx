@@ -7,10 +7,11 @@ const Join = () => {
 		email: "",
 	};
 	const [state, setState] = useState(formState);
-	const { email, fullname } = formState;
+	const { email, fullname } = state;
+
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setState({
-			...formState,
+			...state,
 			[e.target.name]: e.target.value,
 		});
 	};
@@ -32,7 +33,7 @@ const Join = () => {
 		try {
 			setState(formState);
 			// #Logic
-			toast.success("Success! We'll send an email soon.", {
+			toast.success("Success! We'll send you an email soon.", {
 				position: "top-center",
 				theme: "light",
 				autoClose: 5000,
@@ -89,7 +90,7 @@ const Join = () => {
 									value={fullname}
 									name="fullname"
 									onChange={handleChange}
-									className="rounded-lg text-sm placeholder:text-white/[.7] border-2 border-white/50 bg-[#00ccff]/[0.6] px-4 py-3 w-[100%]"
+									className="rounded-lg focus:bg-transparent invalid:border-red-500 outline-none focus:ring-0 text-sm placeholder:text-white/[.7] border-2 border-white/50 bg-[#00ccff]/[0.6] px-4 py-3 w-[100%]"
 								/>
 							</div>
 							<div className="flex items-center justify-between gap-x-5">
@@ -99,7 +100,7 @@ const Join = () => {
 									name="email"
 									onChange={handleChange}
 									placeholder="Email Address"
-									className="rounded-lg text-sm placeholder:text-white/[.7] bg-[#00ccff]/[0.6] border-2 border-white/50 px-4 py-3 w-[80%]"
+									className="rounded-lg focus:bg-transparent invalid:border-red-500 outline-none focus:ring-0 text-sm placeholder:text-white/[.7] bg-[#00ccff]/[0.6] border-2 border-white/50 px-4 py-3 w-[80%]"
 								/>
 								<button
 									type="submit"

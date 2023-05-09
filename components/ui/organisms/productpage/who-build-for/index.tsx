@@ -43,8 +43,7 @@ const WhoBuildFor = () => {
 								</p>
 							</div>
 						</div>
-					</AnimationOnScroll>
-					<AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
+
 						<div className="flex flex-col flex-col-reverse lg:flex lg:flex-row justify-center items-center mx-5 lg:mx-20 lg:space-x-8">
 							<div className="flex flex-col gap-3 justify-center mx-18">
 								<h1 className="text-3xl font-medium text-[#00CCFF] mt-3 lg:mt-0">

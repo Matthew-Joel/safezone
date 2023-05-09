@@ -30,36 +30,52 @@ const Footer = () => {
 							No 29, Adeoluwa Street Oguloloa Junction Ilorin, Kwara State.
 						</p>
 						<Link href="#">
-							<p className="text-sm">About Us</p>
+							<p className="text-sm decoration hover:underline decoration-blue-600 duration-300">
+								About Us
+							</p>
 						</Link>
 					</div>
 				</div>
 				<div className="w-full flex flex-col gap-y-3 mt-5">
 					<div className="">
-						<h2 className="font-bold">Resources</h2>
+						<h2 className="font-bold">
+							Resources
+						</h2>
 					</div>
 					<div className="md:space-y-2">
-						<Link href="#">
-							<p className="text-sm">Blog</p>
+						<Link href="/blog">
+							<p className="text-sm decoration hover:underline decoration-blue-600 duration-300">
+								Blog
+							</p>
 						</Link>
 						<Link href="#">
-							<p className="text-sm">Term and Privacy</p>
+							<p className="text-sm decoration hover:underline decoration-blue-600 duration-300">
+								Term and Privacy
+							</p>
 						</Link>
 					</div>
 				</div>
 				<div className="w-full flex flex-col gap-y-3 mt-5">
 					<div className="">
-						<h2 className="font-bold">Let's Connect</h2>
+						<h2 className="font-bold">
+							Let's Connect
+						</h2>
 					</div>
 					<div className="md:space-y-2">
 						<Link href="#">
-							<p className="text-sm">Facebook</p>
+							<p className="text-sm decoration hover:underline decoration-blue-600 duration-300">
+								Facebook
+							</p>
 						</Link>
 						<Link href="#">
-							<p className="text-sm">LinkedIn</p>
+							<p className="text-sm decoration hover:underline decoration-blue-600 duration-300">
+								LinkedIn
+							</p>
 						</Link>
 						<Link href="#">
-							<p className="text-sm">Twitter</p>
+							<p className="text-sm decoration hover:underline decoration-blue-600 duration-300">
+								Twitter
+							</p>
 						</Link>
 					</div>
 				</div>

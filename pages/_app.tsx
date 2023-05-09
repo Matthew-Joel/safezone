@@ -3,6 +3,7 @@ import "../public/styles/globals.css";
 import "../public/styles/nprogress.css";
 import "../public/styles/gradient.scss";
 import Layout from "../components/ui/layout";
+import "react-toastify/dist/ReactToastify.css";
 import "animate.css";
 import "nprogress/nprogress.css";
 import NProgress from "nprogress";
