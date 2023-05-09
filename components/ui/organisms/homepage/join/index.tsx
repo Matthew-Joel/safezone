@@ -8,6 +8,12 @@ const Join = () => {
 	};
 	const [state, setState] = useState(formState);
 	const { email, fullname } = formState;
+	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+		setState({
+			...formState,
+			[e.target.name]: e.target.value,
+		});
+	};
 	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		if (!email || !fullname) {
@@ -80,12 +86,18 @@ const Join = () => {
 								<input
 									type="text"
 									placeholder="Full Name"
+									value={fullname}
+									name="fullname"
+									onChange={handleChange}
 									className="rounded-lg text-sm placeholder:text-white/[.7] border-2 border-white/50 bg-[#00ccff]/[0.6] px-4 py-3 w-[100%]"
 								/>
 							</div>
 							<div className="flex items-center justify-between gap-x-5">
 								<input
 									type="email"
+									value={email}
+									name="email"
+									onChange={handleChange}
 									placeholder="Email Address"
 									className="rounded-lg text-sm placeholder:text-white/[.7] bg-[#00ccff]/[0.6] border-2 border-white/50 px-4 py-3 w-[80%]"
 								/>
