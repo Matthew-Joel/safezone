@@ -26,7 +26,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 		router.events.on("routeChangeStart", handleStart);
 		router.events.on("routeChangeComplete", handleStop);
 		router.events.on("routeChangeError", handleStop);
-	}, []);
+	}, [router]);
 
 	return (
 		<Layout>

@@ -41,10 +41,10 @@ const ECommerce = () => {
 					</div>
 					<div className="md:w-1/2 relative hidden md:hidden lg:flex justify-center md:my-12">
 						<div>
-							<img src="../images/logos/name 2.png" className="w-[30vw]"></img>
+							<img src="../images/logos/name 2.png" className="w-[30vw]" alt="image" />
 						</div>
 						<div className="absolute">
-							<img src="../images/logos/laptop-alone.png"></img>
+							<img src="../images/logos/laptop-alone.png" alt="image" />
 						</div>
 					</div>
 				</div>
