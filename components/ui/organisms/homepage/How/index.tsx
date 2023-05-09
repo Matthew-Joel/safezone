@@ -51,7 +51,7 @@ const How = () => {
 						<p className="text-sm">
 							SafeZone holds the funds until the buyer receives the goods, products or
 							services and confirms their satisfaction with the transaction. This
-							ensures that the buyer's payment is protected and provides an added layer
+							ensures that the buyer&apos;s payment is protected and provides an added layer
 							of security for both parties involved in the transaction.
 						</p>
 					</div>
@@ -66,8 +66,8 @@ const How = () => {
 					</div>
 					<div className="text-left">
 						<p className="text-sm">
-							Once the buyer clicks "pay", SafeZone immediately releases the funds to
-							the seller's bank account. This ensures a seamless and efficient
+							Once the buyer clicks &quot;pay&quot;, SafeZone immediately releases the funds to
+							the seller&apos;s bank account. This ensures a seamless and efficient
 							transaction process for both the buyer and the seller.
 						</p>
 					</div>

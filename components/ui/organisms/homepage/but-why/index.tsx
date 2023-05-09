@@ -82,7 +82,7 @@ const ButWhy = () => {
 							<img src="../why/fruit.png" alt="trans" className="w-20 h-20"></img>
 						</div>
 						<div className="text-center mt-6">
-							<h2 className="font-bold">Seller's Interest</h2>
+							<h2 className="font-bold">Seller&apos;s Interest</h2>
 							<p className="text-sm">
 								Once the buyer and seller have agreed on the price of the product or
 								service, the buyer makes the payment to the seller through SafeZone. Our

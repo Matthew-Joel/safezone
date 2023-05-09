@@ -19,7 +19,7 @@ const WhyBuild = () => {
 						<h1 className="font-bold text-3xl">1</h1>
 						<p className="text-sm text-left">
 							Firstly, to protect both buyers and sellers from online fraud and scams,
-							which are unfortunately prevalent in today's digital landscape. By
+							which are unfortunately prevalent in today&apos;s digital landscape. By
 							providing a secure and trustworthy platform for transactions, users can
 							be confident that their financial information and personal data is
 							protected from unauthorized access.

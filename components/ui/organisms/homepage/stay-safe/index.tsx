@@ -17,7 +17,7 @@ const StaySafe = () => {
 									The issue of online fraud in the context of social media buying and
 									selling is a significant concern, resulting in losses worth millions of
 									dollars annually and impacting countless individuals who fall victim to
-									these scams. As a buyer or seller, it's crucial to have access to a
+									these scams. As a buyer or seller, it&apos;s crucial to have access to a
 									secure and trustworthy online platform for carrying out transactions
 									without the fear of being defrauded.
 								</p>

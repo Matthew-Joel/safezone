@@ -17,7 +17,7 @@ const Footer = () => {
 					</div>
 					<div className="mt-2">
 						<p className="text-sm md:w-3/4">
-							It's better to be safe than sorry... always request to pay with safezone.
+							It&apos;s better to be safe than sorry... always request to pay with safezone.
 						</p>
 					</div>
 				</div>
@@ -58,7 +58,7 @@ const Footer = () => {
 				<div className="w-full flex flex-col gap-y-3 mt-5">
 					<div className="">
 						<h2 className="font-bold">
-							Let's Connect
+							Let&apos;s Connect
 						</h2>
 					</div>
 					<div className="md:space-y-2">
