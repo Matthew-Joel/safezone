@@ -1,8 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 
 const Join = () => {
+	const formState = {
+		fullname: "",
+		email: "",
+	};
+	const [state, setState] = useState(formState);
+	const { email, fullname } = formState;
+	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+		e.preventDefault();
+		if (!email || !fullname) {
+			toast.error("Invalid Credentials!", {
+				position: "top-center",
+				theme: "light",
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			});
+			return new Error("Invalid Credentials!");
+		}
+		try {
+			setState(formState);
+			// #Logic
+			toast.success("Success! We'll send an email soon.", {
+				position: "top-center",
+				theme: "light",
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			});
+		} catch (error: any) {
+			toast.error("Oops! An error occured. Please try again!", {
+				position: "top-center",
+				theme: "light",
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			});
+		}
+	};
 	return (
-		<div className="bg-white relative md:mt-40">
+		<form className="bg-white relative md:mt-40" onSubmit={handleSubmit}>
+			<ToastContainer />
 			<div className="lg:px-20 md:px-0 my-20">
 				<div
 					className="grid md:grid-cols-2 relative bg-gradientDeg"
@@ -36,11 +85,14 @@ const Join = () => {
 							</div>
 							<div className="flex items-center justify-between gap-x-5">
 								<input
-									type="text"
+									type="email"
 									placeholder="Email Address"
 									className="rounded-lg text-sm placeholder:text-white/[.7] bg-[#00ccff]/[0.6] border-2 border-white/50 px-4 py-3 w-[80%]"
 								/>
-								<button className="rounded-lg py-1.5 px-2 lg:px-2 bg-[#030F35] text-white text-xs w-[40vw] md:w-[20vw] lg:w-[10vw]">
+								<button
+									type="submit"
+									className="rounded-lg py-1.5 px-2 lg:px-2 bg-[#030F35] text-white text-xs w-[40vw] md:w-[20vw] lg:w-[10vw]"
+								>
 									Join the waitlist
 								</button>
 							</div>
@@ -48,7 +100,7 @@ const Join = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</form>
 	);
 };
 export default Join;

@@ -5,9 +5,9 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const Latest = () => {
 	return (
 		<div className="bg-white relative lg:mx-20 mx-8 my-20 lg:mx-14">
-			<h1 className="text-2xl font-medium">Latest</h1>
+			<h1 className="text-xl font-semibold">Latest</h1>
 			<div className="flex justify-center">
-				<AnimationOnScroll animateIn="animate__fadeInUp">
+				<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce>
 					<div className="grid md:grid-cols-2 xl:grid-cols-3 mt-10 gap-6">
 						<LatestBlogPostCard
 							title="5 Tips for Avoiding E-Commerce Scammers"
