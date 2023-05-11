@@ -1,7 +1,7 @@
 export const navlinksChildren = [
 	{ title: "Home", link: "/" },
-	{ title: "What is SafeZone", link: "/#what_is_safezone" },
+	{ title: "What is SafeZone", link: "/about" },
 	{ title: "Product", link: "/product" },
-	{ title: "Blog", link: "/blog" },
-	{ title: "Contact Us", link: "#" },
+	{ title: "Blog", link: "#" },
+	{ title: "Contact Us", link: "/contact" },
 ];

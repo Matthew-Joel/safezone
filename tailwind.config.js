@@ -4,6 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
     extend: {
       fontSize: {
         xs: ".75rem",
@@ -30,7 +36,8 @@ module.exports = {
         gradientDeg: 'linear-gradient(221.99deg, var(--tw-gradient-stops))',
         safezone_homepage_hero: "url('../images/logos/homepage-hero.jpg')",
         safezone_pattern_light: "url('../images/pattern/safezone-pattern.jpg')",
-        blog_pattern: "url('../images/patterns/blog-pattern.jpg')"
+        blog_pattern: "url('../images/patterns/blog-pattern.jpg')",
+        contactpage_hero: "url('../images/building.png')"
       },
     },
   },
