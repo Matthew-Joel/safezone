@@ -18,7 +18,7 @@ const BeSafe = () => {
 				<div className="hidden w-full relative flex items-center md:block">
 					<div className="absolute -bottom-5 lg:bottom-0 right-0">
 						<img
-							src="../images/web_security_1.png"
+							src="/images/3D/Web_Security.png"
 							className="h-auto w-80 object-contain"
 							alt="Web Security Logo"
 						/>

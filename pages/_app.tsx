@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
 	const router = useRouter();
-	const [loading, setLoading] = useState(false);
+	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
 		const handleStart = (url: string) => {
@@ -26,6 +26,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 		router.events.on("routeChangeStart", handleStart);
 		router.events.on("routeChangeComplete", handleStop);
 		router.events.on("routeChangeError", handleStop);
+		setLoading(false)
 	}, [router]);
 
 	return (

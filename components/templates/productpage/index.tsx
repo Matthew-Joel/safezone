@@ -3,7 +3,6 @@ import Join from "../../ui/organisms/homepage/join";
 import ProductpageHero from "../../ui/organisms/productpage/hero";
 import WhyBuild from "../../ui/organisms/productpage/why-build";
 import WhoBuildFor from "../../ui/organisms/productpage/who-build-for";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const ProductpageTemplate = () => {
 	return (
@@ -16,9 +15,7 @@ const ProductpageTemplate = () => {
 			<ProductpageHero />
 			<WhyBuild />
 			<WhoBuildFor />
-			<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 				<Join />
-			</AnimationOnScroll>
 		</div>
 	);
 };

@@ -1,6 +1,5 @@
 import NavLinks from "../../ui/layout/nav/NavLinks";
 import Join from "../../ui/organisms/homepage/join";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import BlogPageHero from "../../ui/organisms/blogpage/hero";
 import Latest from "../../ui/organisms/blogpage/latest";
 import Recent from "../../ui/organisms/blogpage/recent";
@@ -16,9 +15,7 @@ const BlogpageTemplate = () => {
             </div>
             <Latest />
             <Recent />
-            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
                 <Join />
-            </AnimationOnScroll>
         </div>
     );
 };
