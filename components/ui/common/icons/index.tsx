@@ -8,7 +8,8 @@ export const WebSecurityIcon1 = () => {
 				width={100}
 				alt="Web security"
 				className="object-contain w-full"
-				src="/images/web_security_1.png"
+				src="/images/3D/Web_Security.png"
+				
 			/>
 		</div>
 	);
@@ -35,6 +36,7 @@ export const LockIcon = () => {
 				alt="lock icon"
 				className="object-contain w-full"
 				src="/images/lock.png"
+				
 			/>
 		</div>
 	);
@@ -49,6 +51,7 @@ export const HourGlassIcon = () => {
 				alt="time icon"
 				className="object-contain w-full"
 				src="/images/time.png"
+				
 			/>
 		</div>
 	);
@@ -63,6 +66,7 @@ export const PendingIcon = () => {
 				alt="pending icon"
 				className="object-contain w-full"
 				src="/images/pending.png"
+				
 			/>
 		</div>
 	);
@@ -77,6 +81,7 @@ export const GuardIcon = () => {
 				alt="guard icon"
 				className="object-contain w-full"
 				src="/images/shield.png"
+				
 			/>
 		</div>
 	);

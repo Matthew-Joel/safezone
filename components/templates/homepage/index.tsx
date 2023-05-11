@@ -7,7 +7,6 @@ import ECommerce from "../../ui/organisms/homepage/e-commerce";
 import How from "../../ui/organisms/homepage/how";
 import ButWhy from "../../ui/organisms/homepage/but-why";
 import Join from "../../ui/organisms/homepage/join";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const HomepageTemplate = () => {
 	return (
@@ -19,18 +18,12 @@ const HomepageTemplate = () => {
 				</div>
 			</div>
 			<StaySafe />
-			<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 				<ProtectYou />
-			</AnimationOnScroll>
 			<BeSafe />
-			<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 				<How />
-			</AnimationOnScroll>
 			<ButWhy />
 			<ECommerce />
-			<AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
 				<Join />
-			</AnimationOnScroll>
 		</div>
 	);
 };
