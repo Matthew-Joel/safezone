@@ -14,8 +14,8 @@ const Navbar = () => {
 					<img
 						src={`${
 							asPath === "/"
-								? "../images/logos/safezone-logo2.png"
-								: "../images/logos/safezone-logo.png"
+								? "./logos/safezone-logo2.png"
+								: "./logos/safezone-logo.png"
 						}`}
 						className="h-auto w-auto lg:mr-10 object-contain"
 						alt="SafeZone Logo"

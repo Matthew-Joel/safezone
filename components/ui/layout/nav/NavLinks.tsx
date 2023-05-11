@@ -11,7 +11,7 @@ const NavLinks = () => {
 	}, [router]);
 	return (
 		<div className="flex items-center justify-center bg-white shadow-lg">
-			<ul className="text-black gradient-border text-xs md:text-sm flex items-center font-medium p-1 md:rounded-lg md:flex-row md:space-x-8">
+			<ul className="text-black gradient-border text-sm flex items-center font-medium p-1 md:rounded-lg md:flex-row md:space-x-8">
 				{navlinksChildren.map((navlink: any, i: any) => (
 					<li key={i}>
 						<Link

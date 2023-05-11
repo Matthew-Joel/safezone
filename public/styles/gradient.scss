@@ -40,6 +40,14 @@
 	}
 }
 
+.border-bg {
+	background: rgba(255, 255, 255, 0.49);
+/* Dark mode container */
+
+	border: 1px solid #FFFFFF;
+	backdrop-filter: blur(2.5px);
+}
+
 .gradient-bg {
 	height: 100%;
 	width: 100%;
