@@ -13,18 +13,18 @@ const Partners = () => {
 				<p className="text-black justify-center items-center font-medium text-center px-5">
 					Here are some of our partners... all just to keep your money safe!
 				</p>
-				<div className="my-6">
-					<div className="flex gap-6 mx-auto flex-col md:flex-row md:justify-around md:mx-4 items-center justify-center">
-						<div className="">
+				<div className="my-10 flex justify-center items-center">
+					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-24 items-center">
+						<div className="grayscale hover:grayscale-0 flex justify-center duration-300">
 							<PayStackLogo />
 						</div>
-						<div className="">
+						<div className="grayscale hover:grayscale-0 flex justify-center duration-300">
 							<TechsityLogo />
 						</div>
-						<div className="">
+						<div className="grayscale hover:grayscale-0 flex justify-center duration-300">
 							<MybrandhiveLogo />
 						</div>
-						<div className="">
+						<div className="grayscale hover:grayscale-0 flex justify-center duration-300">
 							<ICPCLogo />
 						</div>
 					</div>

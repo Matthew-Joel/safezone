@@ -17,13 +17,13 @@ const SafeZoners = () => {
 					</div>
 					<div className="grid md:gap-3 gap-4">
 						<div className="xl:py-32 lg:py-16 md:py-12 xl:px-2 px-5">
-							<p className="text-black font-medium text-sm">
+							<p className="text-black text-center md:text-left font-medium text-sm">
 								We are the <br />
 								<span className="font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#80FF00]/40 to-[#00CCFF]">
 									Safezoners
 								</span>
 							</p>
-							<p className="text-sm font-bold text-black">
+							<p className="text-sm text-center md:text-left font-bold text-black">
 								Safeguarding your hard-earned <br />
 								money
 							</p>

@@ -12,19 +12,14 @@ const AboutComponent = () => {
 							<Headings title="About Us" />
 						</h1>
 						<p className="flex justify-center items-center px-5 text-[#000F43] text-center text-sm">
-							SafeZone is a secure digital escrow payment solution designed to
-							cater to and protect online buyers and sellers from falling victim
-							to fraudulent activities perpetrated by individuals posing as
-							genuine. Our platform provides an added layer of security for
-							online transactions, ensuring that funds are safely held until
-							both parties are satisfied with the transaction.
+							SafeZone is a secure digital escrow payment solution designed to cater to
+							and protect online buyers and sellers from falling victim to fraudulent
+							activities perpetrated by individuals posing as genuine. Our platform
+							provides an added layer of security for online transactions, ensuring
+							that funds are safely held until both parties are satisfied with the
+							transaction.
 						</p>
 					</div>
-				</div>
-			</div>
-			<div className="sticky z-10 md:w-full mt-12">
-				<div className="flex justify-center items-center mx-auto">
-					<NavLinks />
 				</div>
 			</div>
 		</div>

@@ -102,7 +102,7 @@ const WhoBuildFor = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-center lg:mx-[400px] mx-20 my-16">
+			<div className="flex justify-center lg:mx-[400px] md:mx-20 my-16">
 				<p className="text-lg text-[#010923] font-medium text-center leading-8">
 					Our Goal is to archive an eco-system where buying and selling online comes
 					with peace of mind and confidence knowing that your money and goods are

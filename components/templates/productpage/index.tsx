@@ -7,15 +7,10 @@ import WhoBuildFor from "../../ui/organisms/productpage/who-build-for";
 const ProductpageTemplate = () => {
 	return (
 		<div className="w-[100vw] relative">
-			<div className="sticky h-auto top-1 xl:-mt-[5%] lg:-mt-[5%] -mt-[-10%] z-10 w-full">
-				<div className="flex justify-center">
-					<NavLinks />
-				</div>
-			</div>
 			<ProductpageHero />
 			<WhyBuild />
 			<WhoBuildFor />
-				<Join />
+			<Join />
 		</div>
 	);
 };
