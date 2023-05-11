@@ -20,7 +20,7 @@ const NavLinks = () => {
 							className={`${
 								router.asPath === navlink.link
 									? "underline text-[#00B2FF]"
-									: activeLink === navlink.link && "underline text-[#00B2FF]"
+									: activeLink == navlink.link && "underline text-[#00B2FF]"
 							} block py-2 md:px-4 px-2 md:rounded hover:text-[#00B2FF] duration-300 decoration-2 underline-offset-2 hover:underline`}
 							style={{ whiteSpace: "nowrap" }}
 						>

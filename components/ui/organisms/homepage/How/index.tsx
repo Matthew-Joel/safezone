@@ -2,12 +2,12 @@ import React from "react";
 
 const How = () => {
 	return (
-		<div className="bg-white relative mt-28 pt-10" id="what_is_safezone">
+		<div className="bg-white relative mt-28 pt-10">
 			<div className="text-center">
 				<p className="text-4xl text-medium">How does safezone works?</p>
 				<p className="text-sm">safezone is simple and easy to use</p>
 			</div>
-			<div className="grid lg:grid-cols-4 md:grid-cols-2 mx-14 mt-12">
+			<div className="grid lg:grid-cols-4 md:grid-cols-2 md:mx-14 mx-4 mt-12">
 				<div className="md:px-10 px-3 mt-5 flex flex-col gap-3 items-center">
 					<div className="flex justify-center">
 						<img
@@ -51,8 +51,8 @@ const How = () => {
 						<p className="text-sm">
 							SafeZone holds the funds until the buyer receives the goods, products or
 							services and confirms their satisfaction with the transaction. This
-							ensures that the buyer&apos;s payment is protected and provides an added layer
-							of security for both parties involved in the transaction.
+							ensures that the buyer&apos;s payment is protected and provides an added
+							layer of security for both parties involved in the transaction.
 						</p>
 					</div>
 				</div>
@@ -66,9 +66,9 @@ const How = () => {
 					</div>
 					<div className="text-left">
 						<p className="text-sm">
-							Once the buyer clicks &quot;pay&quot;, SafeZone immediately releases the funds to
-							the seller&apos;s bank account. This ensures a seamless and efficient
-							transaction process for both the buyer and the seller.
+							Once the buyer clicks &quot;pay&quot;, SafeZone immediately releases the
+							funds to the seller&apos;s bank account. This ensures a seamless and
+							efficient transaction process for both the buyer and the seller.
 						</p>
 					</div>
 				</div>

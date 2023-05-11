@@ -4,9 +4,9 @@ import StaySafe from "../../ui/organisms/homepage/stay-safe";
 import ProtectYou from "../../ui/organisms/homepage/protect-you";
 import BeSafe from "../../ui/organisms/homepage/be-safe";
 import ECommerce from "../../ui/organisms/homepage/e-commerce";
-import How from "../../ui/organisms/homepage/how";
 import ButWhy from "../../ui/organisms/homepage/but-why";
 import Join from "../../ui/organisms/homepage/join";
+import How from "../../ui/organisms/homepage/How";
 
 const HomepageTemplate = () => {
 	return (
@@ -18,12 +18,12 @@ const HomepageTemplate = () => {
 				</div>
 			</div>
 			<StaySafe />
-				<ProtectYou />
+			<ProtectYou />
 			<BeSafe />
-				<How />
+			<How />
 			<ButWhy />
 			<ECommerce />
-				<Join />
+			<Join />
 		</div>
 	);
 };

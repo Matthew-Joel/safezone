@@ -9,6 +9,7 @@
 .gradient-border:after {
 	content: "";
 	position: absolute;
+	z-index: -1;
 	top: calc(-1 * var(--borderWidth) * 1.5);
 	left: calc(-1 * var(--borderWidth) * 2);
 	height: calc(100% + var(--borderWidth) * 3.5);
@@ -23,7 +24,6 @@
 		#6fba82
 	);
 	border-radius: calc(3 * var(--borderWidth));
-	z-index: -1;
 	animation: animatedgradient 6s ease alternate infinite;
 	background-size: 300% 300%;
 }

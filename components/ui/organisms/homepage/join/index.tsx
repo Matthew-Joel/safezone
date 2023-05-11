@@ -80,7 +80,7 @@ const Join = () => {
 					</div>
 					<div className="md:w-full w-100 my-12 md:pr-5 md:mx-0 mx-8">
 						<p className="text-3xl font-medium text-white">
-							Ready to join the<br></br> safe-zone
+							Ready to join the<br></br> safe-zone?
 						</p>
 						<div className="mt-4 flex flex-col gap-y-6 md:pr-5 lg:pr-36">
 							<div>
