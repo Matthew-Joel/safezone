@@ -17,7 +17,7 @@ const StaySafe = () => {
 									The issue of online fraud in the context of social media buying and
 									selling is a significant concern, resulting in losses worth millions of
 									dollars annually and impacting countless individuals who fall victim to
-									these scams. As a buyer or seller, it's crucial to have access to a
+									these scams. As a buyer or seller, it&apos;s crucial to have access to a
 									secure and trustworthy online platform for carrying out transactions
 									without the fear of being defrauded.
 								</p>
@@ -25,9 +25,9 @@ const StaySafe = () => {
 						</div>
 						<div className="h-full w-[30vw] hidden lg:flex">
 							<Image
-								src="/images/scammer_illustration.png"
+								src="/svg/scammer.svg"
 								alt="scammer illustration"
-								className="object-contain w-full"
+								className="object-contain w-80"
 								height={100}
 								width={100}
 							/>

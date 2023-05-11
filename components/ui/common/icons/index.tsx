@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const WebSecurityIcon1 = () => {
 	return (
-		<div className="lg:w-40 w-36">
+		<div className="lg:w-48 w-40">
 			<Image
 				height={100}
 				width={100}
@@ -16,13 +16,11 @@ export const WebSecurityIcon1 = () => {
 
 export const HomeHeroMobileIcon = () => {
 	return (
-		<div className="lg:w-72 w-48">
-			<Image
-				height={100}
-				width={100}
+		<div className="w-5/6 h-auto flex justify-center items-center mr-20 md:mr-36">
+			<img
 				alt="mobile phone"
-				className="object-contain w-full"
-				src="/images/mobile_phone.png"
+				className="w-full h-full lg:h-80"
+				src="/images/logos/mobile.png"
 			/>
 		</div>
 	);
@@ -42,7 +40,7 @@ export const LockIcon = () => {
 	);
 };
 
-export const TimeSandIcon = () => {
+export const HourGlassIcon = () => {
 	return (
 		<div className="w-8">
 			<Image
