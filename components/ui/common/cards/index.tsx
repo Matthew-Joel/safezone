@@ -6,12 +6,10 @@ export const LatestBlogPostCard = (props: BlogPostCardType) => {
 	return (
 		<div className="bg-white rounded-lg shadow-lg p-3">
 			<div className="w-full h-[220px] bg-zinc-100">
-				<Image
+				<img
 					src={props.imgSrc ? props.imgSrc : "/images/default_image.png"}
 					alt={props.title}
 					className="w-full h-full"
-					height={100}
-					width={100}
 				/>
 			</div>
 			<div className="flex flex-col gap-6 justify-center">
@@ -48,12 +46,10 @@ export const BlogThumbnailCard = (props: BlogPostCardType) => {
 		<div className="bg-white p-3 rounded-lg shadow-lg">
 			<div className="flex flex-col gap-5 items-start justify-start">
 				<div className="h-[200px] w-full bg-zinc-100">
-					<Image
+					<img
 						src={props.imgSrc ? props.imgSrc : "/images/default_image.png"}
 						alt={props.title}
 						className="w-full h-full"
-						height={100}
-						width={100}
 					/>
 				</div>
 				<h2 className="text-xl font-bold">{props.title}</h2>
