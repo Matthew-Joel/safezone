@@ -32,7 +32,6 @@ const HomepageTemplate = () => {
 	return (
 		<div className="w-[100vw] relative">
 			<HomepageHero />
-
 			<StaySafe />
 			<ProtectYou />
 			<BeSafe />
