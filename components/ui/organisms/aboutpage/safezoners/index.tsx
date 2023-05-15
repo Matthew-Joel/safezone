@@ -8,11 +8,9 @@ const SafeZoners = () => {
 				<div className="justify-center items-center md:flex md:w-full sm:w-full grid gap-[3em]">
 					<div className="flex flex-col md:h-full md:w-[40vw] lg:flex">
 						<img
-							src="./images/safezoe.png"
-							alt="Safezoner"
+							src="/images/safezoners.png"
+							alt="Safezoners"
 							className="object-contain gradient-bg pb-2 pl-2"
-							width={879}
-							height={809}
 						/>
 					</div>
 					<div className="grid md:gap-3 gap-4">

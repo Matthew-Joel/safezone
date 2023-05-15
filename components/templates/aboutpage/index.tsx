@@ -12,7 +12,7 @@ const AboutPageTemplate = () => {
 	return (
 		<div className="w-[100vw] relative">
 			<AboutHero />
-			<div className="sticky h-auto top-1 z-10 w-full">
+			<div className="sticky h-auto top-4 z-50 w-full">
 				<div className="flex justify-center">
 					<NavLinks />
 				</div>

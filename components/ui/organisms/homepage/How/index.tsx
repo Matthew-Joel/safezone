@@ -4,8 +4,8 @@ const How = () => {
 	return (
 		<div className="bg-white relative mt-28 pt-10">
 			<div className="text-center">
-				<p className="text-4xl text-medium">How does safezone works?</p>
-				<p className="text-sm">safezone is simple and easy to use</p>
+				<p className="text-4xl text-medium">How does safezone work?</p>
+				<p className="text-sm">Safezone is simple and easy to use</p>
 			</div>
 			<div className="grid lg:grid-cols-4 md:grid-cols-2 md:mx-14 mx-4 mt-12">
 				<div className="md:px-10 px-3 mt-5 flex flex-col gap-3 items-center">

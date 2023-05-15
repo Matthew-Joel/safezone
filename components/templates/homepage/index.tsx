@@ -7,16 +7,32 @@ import ECommerce from "../../ui/organisms/homepage/e-commerce";
 import ButWhy from "../../ui/organisms/homepage/but-why";
 import Join from "../../ui/organisms/homepage/join";
 import How from "../../ui/organisms/homepage/How";
+import { useEffect, useState } from "react";
 
 const HomepageTemplate = () => {
+	const [isScreenHeight, setIsScreenHeight] = useState(false);
+	const handleScroll = () => {
+		const windowHeight = window.innerHeight;
+		const scrollHeight = document.documentElement.scrollHeight;
+		const scrollPosition =
+			window.pageYOffset || document.documentElement.scrollTop;
+		const targetScrollHeight = windowHeight * 0.869;
+		if (scrollPosition >= targetScrollHeight) {
+			setIsScreenHeight(true);
+		} else {
+			setIsScreenHeight(false);
+		}
+	};
+	useEffect(() => {
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	});
 	return (
 		<div className="w-[100vw] relative">
 			<HomepageHero />
-			<div className="sticky h-auto top-1 xl:-mt-[2%] lg:-mt-[3%] md:-mt-[2%] -mt-[5%] z-10 w-full">
-				<div className="flex justify-center">
-					<NavLinks />
-				</div>
-			</div>
+
 			<StaySafe />
 			<ProtectYou />
 			<BeSafe />

@@ -19,7 +19,7 @@ const WhyBuild = () => {
 					<div className="hidden md:flex absolute bg-white bg-opacity-20 p-[250px] px-[290px] rounded-full"></div>
 				</div>
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mt-6 items-center">
-					<div className="px-4 lg:px-12 flex flex-col gap-4 justify-center items-center lg:items-start">
+					<div className="px-4 lg:px-12 flex flex-col gap-4 justify-center items-center">
 						<h1 className="font-bold text-3xl">1</h1>
 						<p className="text-sm text-justify mx-3">
 							Firstly, to protect both buyers and sellers from online fraud and scams,
