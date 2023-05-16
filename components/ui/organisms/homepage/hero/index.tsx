@@ -3,11 +3,11 @@ import HeroImageComponent from "./HeroImageComponent";
 import { WebSecurityIcon1 } from "../../../common/icons";
 import Typewriter from "../../../../../utils/typewriter";
 
-const HompageHero = () => {
+const HompageHero = ({ isHeight }: { isHeight: boolean }) => {
 	return (
-		<div className="bg-safezone_homepage_hero h-[120vh] w-screen -mt-28 md:pt-36 pt-44 relative">
-			<div className="lg:mx-24 flex justify-center">
-				<div className="flex flex-col items-center pt-10">
+		<div className="bg-safezone_homepage_hero md:h-[110vh] h-[115vh] w-screen -mt-24 md:pt-36 pt-44 relative">
+			<div className="lg:mx-24 flex justify-center h-auto">
+				<div className="flex flex-col items-center md:-mt-10 mt-3">
 					<div className="animate-pulse">
 						<WebSecurityIcon1 />
 					</div>
@@ -25,8 +25,8 @@ const HompageHero = () => {
 						</p>
 					</div>
 				</div>
-				<div className="container absolute md:-bottom-5 bottom-[1.53em]">
-					<HeroImageComponent />
+				<div className="container absolute md:-bottom-5 bottom-[.08em] h-auto">
+					<HeroImageComponent isHeight={isHeight} />
 				</div>
 			</div>
 		</div>

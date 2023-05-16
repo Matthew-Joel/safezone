@@ -31,7 +31,7 @@ const HomepageTemplate = () => {
 	});
 	return (
 		<div className="w-[100vw] relative">
-			<HomepageHero />
+			<HomepageHero isHeight={isScreenHeight} />
 			<StaySafe />
 			<ProtectYou />
 			<BeSafe />

@@ -8,7 +8,7 @@ const BlogpageTemplate = () => {
 	return (
 		<div className="w-[100vw] relative">
 			<BlogPageHero />
-			<div className="sticky h-auto top-1 z-10 w-full">
+			<div className="sticky top-5 z-50">
 				<div className="flex justify-center">
 					<NavLinks />
 				</div>

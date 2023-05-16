@@ -23,6 +23,22 @@ const Recent = () => {
 						imgSrc=""
 						title={"What is safezone"}
 					/>
+					<BlogThumbnailCard
+						createdAt={"12/03/2023"}
+						createdBy={"Darey Oloye"}
+						description=""
+						link=""
+						imgSrc=""
+						title={"What is safezone"}
+					/>
+					<BlogThumbnailCard
+						createdAt={"12/03/2023"}
+						createdBy={"Darey Oloye"}
+						description=""
+						link=""
+						imgSrc={"/images/product/young-girl.jpg"}
+						title={"What is safezone"}
+					/>
 				</div>
 			</div>
 		</div>

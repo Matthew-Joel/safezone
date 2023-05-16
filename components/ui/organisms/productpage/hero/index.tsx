@@ -1,15 +1,9 @@
-import Image from "next/image";
 import React from "react";
 import NavLinks from "../../../layout/nav/NavLinks";
 
 const Hero = () => {
 	return (
-		<div className="bg-white h-auto lg:h-[80vh] w-screen lg:mt-12 mt-28 mb-10">
-			<div className="sticky z-50 w-full">
-				<div className="flex justify-center">
-					<NavLinks />
-				</div>
-			</div>
+		<div className="bg-white h-auto lg:h-[80vh] w-screen lg:mt-12 mt-28 mb-10 relative">
 			<div className="md:flex justify-center">
 				<div className="lg:flex items-center">
 					<div className="flex items-center relative">

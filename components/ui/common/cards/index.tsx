@@ -17,23 +17,25 @@ export const LatestBlogPostCard = (props: BlogPostCardType) => {
 					<div className="grid gap-3 items-center">
 						<h1 className="font-semibold md:text-xl">{title}</h1>
 						<p className="text-sm">{description.substring(0, 200)}...</p>
-						<div className="md:flex justify-between items-center gap-2">
+						<div className="md:flex items-center gap-6">
 							<Link href={props.link ? props.link : "#"}>
 								<div
 									style={{
 										background:
 											"linear-gradient(221.99deg, rgba(0, 204, 255, 0.13) 10.93%, rgba(128, 255, 0, 0.13) 281.44%)",
 									}}
-									className="text-sm rounded-xl text-center text-sm border-2 border-l-[#00CCFF] border-t-[#00CCFF] 
+									className="w-full text-sm rounded-xl text-center text-sm border-2 border-l-[#00CCFF] border-t-[#00CCFF] 
                         border-r-[#80FF00] border-b-[#80FF00] hover:border-l-[#80FF00] hover:border-r-[#00CCFF] hover:border-b-[#00CCFF] 
                         hover:border-t-[#80FF00] transition-all hover:scale-[.96] duration-300 py-1 px-3 text-black mt-3 lg:mt-0"
 								>
 									Continue Reading
 								</div>
 							</Link>
+							<p className="text-xs text-zinc-500 md:mt-0 mt-2">
+								Posted on: {createdAt}
+							</p>
+							<p className="text-xs text-zinc-500 md:mt-0 mt-2">By: {createdBy}</p>
 						</div>
-						<p className="text-xs text-zinc-500">Posted on: {createdAt}</p>
-						<p className="text-xs text-zinc-500">By: {createdBy}</p>
 					</div>
 				</div>
 			</div>
