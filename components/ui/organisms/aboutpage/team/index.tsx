@@ -43,7 +43,7 @@ const MeetTeam = () => {
 				<h2 className="font-bold text-xl mt-5">{name}</h2>
 				<p className="text-sm">{position}</p>
 				<div className="flex justify-center items-center">
-					<Link href={linkedinUrl || "#"}>
+					<Link href={linkedinUrl || "#"} className="hover:bg-blue-500">
 						<LogoLinkedin color="skyblue" height="20px" width="20px" />
 					</Link>
 				</div>
@@ -60,7 +60,7 @@ const MeetTeam = () => {
 						<Headings title="Meet The Team" />
 					</div>
 
-					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 items-center text-center rounded">
+					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 lg:gap-28 md:gap-42 items-center text-center rounded">
 						{teamData.map((person, i) => {
 							return (
 								<TeamMemberComponent
