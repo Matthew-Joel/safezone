@@ -64,7 +64,7 @@ const Join = () => {
 					className="grid md:grid-cols-2 relative bg-gradientDeg"
 					style={{
 						background:
-							'linear-gradient(-185.99deg, rgba(128, 255, 0, 0.5), rgba(0, 204, 255, 0.7) 50%), url("../images/patterns/safezone-pattern.jpg")',
+							'linear-gradient(-185.99deg, rgba(128, 255, 195, 0.8), rgba(0, 204, 255, 0.8)), url("../images/patterns/safezone-pattern.jpg")',
 						backgroundSize: "cover",
 						backgroundRepeat: "repeat",
 					}}
