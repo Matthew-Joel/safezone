@@ -11,7 +11,7 @@ const Recent = () => {
 						createdAt={"12/03/2023"}
 						createdBy={"Darey Oloye"}
 						description=""
-						link=""
+						link={`/blog/${"id123456"}`}
 						imgSrc={"/images/product/young-girl.jpg"}
 						title={"What is safezone"}
 					/>
@@ -19,7 +19,7 @@ const Recent = () => {
 						createdAt={"12/03/2023"}
 						createdBy={"Darey Oloye"}
 						description=""
-						link=""
+						link={`/blog/${"id123456"}`}
 						imgSrc=""
 						title={"What is safezone"}
 					/>
@@ -27,7 +27,7 @@ const Recent = () => {
 						createdAt={"12/03/2023"}
 						createdBy={"Darey Oloye"}
 						description=""
-						link=""
+						link={`/blog/${"id123456"}`}
 						imgSrc=""
 						title={"What is safezone"}
 					/>
@@ -35,7 +35,7 @@ const Recent = () => {
 						createdAt={"12/03/2023"}
 						createdBy={"Darey Oloye"}
 						description=""
-						link=""
+						link={`/blog/${"id123456"}`}
 						imgSrc={"/images/product/young-girl.jpg"}
 						title={"What is safezone"}
 					/>

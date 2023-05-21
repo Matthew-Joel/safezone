@@ -14,7 +14,7 @@ const Latest = () => {
 					money...`}
 					createdBy={"Darey Oloye"}
 					createdAt={"12/01/2023"}
-					link={`/blog/${"#id"}`}
+					link={`/blog/${"id123456"}`}
 					imgSrc="/images/hacker-with-laptop-golden-credit-card.png"
 				/>
 				<LatestBlogPostCard
@@ -25,7 +25,7 @@ const Latest = () => {
 					money...`}
 					createdBy={"Darey Oloye"}
 					createdAt={"12/01/2023"}
-					link={`/blog/${"#id"}`}
+					link={`/blog/${"id123456"}`}
 				/>
 			</div>
 		</div>
