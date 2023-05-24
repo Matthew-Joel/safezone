@@ -5,7 +5,7 @@ const SafeZoners = () => {
 	return (
 		<div className="flex justify-center items-center w-full">
 			<div className="flex-col lg:mx-24 md:mx-32 md:w-full lg:mt-10 my-12">
-				<div className="justify-center items-center md:flex md:w-full sm:w-full grid gap-[3em]">
+				<div className="md:flex md:w-full sm:w-full grid gap-[3em]">
 					<div className="flex flex-col md:h-full md:w-[40vw] lg:flex">
 						<img
 							src="/images/safezoners.png"

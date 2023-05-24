@@ -3,10 +3,10 @@ import React from "react";
 const ButWhy = () => {
 	return (
 		<div
-			className="relative py-28 px-5 md:px-12 mt-20 bg-opacity-10"
+			className="relative py-28 px-5 md:px-12 mt-20"
 			style={{
 				background:
-					'linear-gradient(222.99deg, rgba(250, 255, 255, 0.6), rgba(250, 255, 255, 0.6) 80%), url("../images/patterns/safezone-pattern.jpg")',
+					'linear-gradient(222.99deg, rgba(250, 255, 255, 0.9), rgba(250, 255, 255, 0.9)), url("../images/patterns/safezone-pattern.jpg")',
 				backgroundSize: "cover",
 			}}
 		>
