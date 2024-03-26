@@ -23,3 +23,4 @@
 <h3>or</h3>
 
 <code>yarn install && yarn dev</code>
+# Safe-zone-website
